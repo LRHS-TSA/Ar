@@ -1,0 +1,23 @@
+{
+  "name": "webmaster-ar",
+  "version": "0.0.0",
+  "description": "Ar website for Webmaster",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git.mctherealm.net/moo/ar.git"
+  },
+  "keywords": [
+    "Ar",
+    "Tsa",
+    "Webmaster"
+  ],
+  "author": "Alex",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "bower": "^1.8.0"
+  }
+}

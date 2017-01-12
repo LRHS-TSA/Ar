@@ -1,0 +1,23 @@
+{
+  "name": "webmaster-ar",
+  "description": "Ar website for Webmaster",
+  "main": "index.html",
+  "authors": [
+    "Alex"
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "Ar",
+    "Tsa",
+    "Webmaster"
+  ],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
