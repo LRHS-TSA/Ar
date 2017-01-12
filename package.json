@@ -4,7 +4,8 @@
   "description": "Ar website for Webmaster",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "index.html",
+    "test": "xo"
   },
   "repository": {
     "type": "git",
@@ -16,8 +17,20 @@
     "Webmaster"
   ],
   "author": "Alex",
-  "license": "GPL-3.0",
   "devDependencies": {
-    "bower": "^1.8.0"
+    "bower": "^1.8.0",
+    "xo": "^0.17.1"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "rules": {
+      "camelcase": 0
+    },
+    "envs": [
+      "node",
+      "browser",
+      "jquery"
+    ]
   }
 }
