@@ -3,7 +3,7 @@
 }
 
 .parallax-container {
-  height: 500px;
+  height: 600px;
 }
 
 .container {
@@ -12,13 +12,17 @@
 
 p {
   font-size: 20px;
-  text-indent: 2em;
+  margin-bottom: 0;
+}
+
+div.my-3 > h1 {
+  padding-top: 32px;
 }
 
 #Ar-What{
-  min-height: calc(100vh - 500px);
+  min-height: calc(100vh - 600px);
 }
 
 #Ar-What-Para{
-  height: 500px;
+  height: 600px;
 }
