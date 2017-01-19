@@ -1,36 +1,36 @@
 .nav {
-  background: transparent;
+    background: transparent;
 }
 
 .parallax-container {
-  height: 600px;
+    height: 600px;
 }
 
 .container {
-  padding: 8px;
+    padding: 8px;
 }
 
 body {
-  position: relative;
+    position: relative;
 }
 
 p {
-  font-size: 20px;
-  margin-bottom: 0;
+    font-size: 20px;
+    margin-bottom: 0;
 }
 
-div.my-3 > h1 {
-  padding-top: 32px;
+div.my-3>h1 {
+    padding-top: 32px;
 }
 
-#Ar-What{
-  min-height: calc(100vh - 600px);
+#Ar-What {
+    min-height: calc(100vh - 600px);
 }
 
-#Ar-What-Para{
-  height: 600px;
+#Ar-What-Para {
+    height: 600px;
 }
 
 #Home {
-  min-height: 1px;
+    min-height: 1px;
 }
