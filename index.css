@@ -23,11 +23,11 @@ div.my-3>h1 {
     padding-top: 32px;
 }
 
-#Ar-What {
+#Ar-What-Container {
     min-height: calc(100vh - 600px);
 }
 
-#Ar-What-Para {
+#ArWhat {
     height: 600px;
 }
 
