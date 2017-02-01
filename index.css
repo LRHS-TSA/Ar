@@ -6,8 +6,20 @@
     height: 600px;
 }
 
+#header {
+    height: 0px !important;
+}
+
 .container {
     padding: 8px;
+}
+
+.display-3 {
+  position: relative;
+  left: 2.5%;
+  margin-top: 15px;
+  margin-bottom: -50px;
+  max-width: 50%;
 }
 
 body {
