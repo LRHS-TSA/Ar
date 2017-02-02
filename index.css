@@ -28,6 +28,14 @@
     cursor: default;
 }
 
+.display-3 {
+ position: relative;
+ left: 2.5%;
+ margin-top: 15px;
+ margin-bottom: -50px;
+ max-width: 50%;
+}
+
 body {
     position: relative;
 }
