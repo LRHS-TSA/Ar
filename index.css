@@ -6,20 +6,26 @@
     height: 600px;
 }
 
-#header {
-    height: 0px !important;
-}
-
 .container {
     padding: 8px;
 }
 
-.display-3 {
-  position: relative;
-  left: 2.5%;
-  margin-top: 15px;
-  margin-bottom: -50px;
-  max-width: 50%;
+@media only screen and (max-width:1600px){
+       .section {
+         display: none !important
+       }
+}
+
+.section {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    max-width: 50%;
+    font-size: 2em;
+    color: #666;
+    display: none;
+    -webkit-user-select: none;
+    cursor: default;
 }
 
 body {
