@@ -36,6 +36,14 @@
  max-width: 50%;
 }
 
+.display-4 {
+  padding-top: 10px;
+}
+
+.cite {
+  padding: 1em;
+}
+
 body {
     position: relative;
 }
@@ -59,4 +67,8 @@ div.my-3>h1 {
 
 #Home {
     min-height: 1px;
+}
+
+#Sources-Container{
+  margin-bottom: 100px;
 }
