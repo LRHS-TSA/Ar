@@ -1,5 +1,7 @@
 $('.navbar-nav').on('click', 'a', function(e) {
-    e.preventDefault();
+    if ($(this).attr('href').match("^#")) {
+        e.preventDefault();
+    }
     if ($(this).attr('href') === '#Home') {
         $('body').scrollTo('top');
     } else {
