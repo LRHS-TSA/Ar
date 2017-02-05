@@ -2,8 +2,8 @@
     background: transparent;
 }
 
-.parallax-container {
-    height: 600px;
+.parallax {
+  height: 600px;
 }
 
 .container {
@@ -15,8 +15,6 @@
          display: none !important
        }
 }
-
-
 
 .section {
     position: fixed;
@@ -44,6 +42,8 @@
 
 .cite {
   padding: 1em;
+  padding-left: 2em ;
+  text-indent: -2em ;
 }
 
 body {
@@ -63,14 +63,15 @@ div.my-3>h1 {
     min-height: calc(100vh - 600px);
 }
 
-#ArWhat {
-    height: 600px;
-}
-
 #Home {
     min-height: 1px;
 }
 
-#Sources-Container{
-  margin-bottom: 100px;
+#About-Container {
+  padding-bottom: 200px;
+}
+
+.giveMeSpace {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }

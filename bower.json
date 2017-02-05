@@ -22,8 +22,6 @@
   ],
   "dependencies": {
     "bootstrap": "^4.0",
-    "parallax.js": "^1.4.2",
-    "font-awesome": "^4.7.0",
     "jquery": "1.11.0",
     "jquery.scrollable": "^1.2.1"
   }
