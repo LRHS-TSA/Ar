@@ -4,6 +4,7 @@ node('basic') {
   def tag
 
   stage('Checkout source') {
+    slackSend "[AR] Build #{$env.BUILD_NUMBER} started (${env.BUILD_URL})"
     checkout scm
   }
 
@@ -18,9 +19,12 @@ node('basic') {
     sh 'git describe --tags > .git-tag'
     tag = readFile('.git-tag').trim()
     app.push "${tag}"
+    slackSend "[AR] `lrhstsa/ar:${tag}` pushed to Docker Hub"
   }
 
   stage('Deploy to cluster') {
+    milestone()
     sh "kubectl --namespace default set image deployment ar ar=lrhstsa/ar:${tag}"
+    slackSend "[AR] Release `${tag}` deployed to production"
   }
 }
