@@ -10,6 +10,10 @@
     padding: 8px;
 }
 
+nav {
+    background-color: #27819E !important;
+}
+
 @media only screen and (max-width:1600px){
        .section {
          display: none !important
