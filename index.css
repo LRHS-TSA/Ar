@@ -38,6 +38,7 @@ nav {
  margin-top: 15px;
  margin-bottom: -50px;
  max-width: 50%;
+ color: #27819E;
 }
 
 .display-4 {
@@ -49,6 +50,13 @@ nav {
   padding-left: 2em ;
   text-indent: -2em ;
   line-height:250%;
+}
+
+.hvr-overline-reveal:before {
+  background: white !important;
+  height: 2px;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 
 body {
